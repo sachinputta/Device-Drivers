@@ -1,0 +1,1 @@
+cmd_/home/sancho/Desktop/dd-master/mouse_bright/usbmouse.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/sancho/Desktop/dd-master/mouse_bright/usbmouse.ko /home/sancho/Desktop/dd-master/mouse_bright/usbmouse.o /home/sancho/Desktop/dd-master/mouse_bright/usbmouse.mod.o ;  true

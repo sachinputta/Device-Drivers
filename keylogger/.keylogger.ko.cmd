@@ -1,0 +1,1 @@
+cmd_/home/sancho/Downloads/dd-master/lab/2/keylogger/keylogger.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/sancho/Downloads/dd-master/lab/2/keylogger/keylogger.ko /home/sancho/Downloads/dd-master/lab/2/keylogger/keylogger.o /home/sancho/Downloads/dd-master/lab/2/keylogger/keylogger.mod.o ;  true
